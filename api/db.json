@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "titulo": "Segundo post",
+      "corpo": "Mais um pra garantir que funciona mesmo",
+      "id": 2
+    },
+    {
+      "titulo": "Terceiro pra finalizar",
+      "corpo": "Último pra finalizar ",
+      "id": 3
+    },
+    {
+      "titulo": "ultimo pra ver mesmo",
+      "corpo": "Post contendo post postado para testes",
+      "id": 4
+    }
+  ]
+}

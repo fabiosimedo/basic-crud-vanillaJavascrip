@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <title>Micro Posts</title>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-primary mb-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">Micro Posts</a>
+    </div>
+  </nav>
+
+  <div class="container postsContainer">
+    <div class="card card-body cardForm">
+      <h1>Diga algo</h1>
+      <p class="lead">O que você está pensando agora?</p>
+      <div class="form-group">
+        <input type="text" name="" id="titulo" class="form-control" placeholder="Título do post">
+      </div>
+      <div class="form-group mt-2">
+        <textarea name="" id="corpo" class="form-control" placeholder="Conteúdo do post"></textarea>
+      </div>
+      <input type="hidden" id="id" value="">
+      <button class="btn btn-primary btn-block mt-3 enviaPost">Postar</button>
+      <span class="form-end"></span>
+    </div>
+    <div id="posts"></div>
+  </div>
+
+  <footer class="mt-5 p-1 text-center bg-light">
+    Micro Posts &copy
+  </footer>
+
+  
+  <script type="module" src="index.js"></script>
+</body>
+</html>
